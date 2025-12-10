@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { navLinks, socialLinks, offices } from '../data/constants'
 
@@ -7,6 +8,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const location = useLocation()
+  const [isCSDropdownOpen, setIsCSDropdownOpen] = useState(false)
 
   return (
     <div className="min-h-screen text-ink">
@@ -32,6 +34,28 @@ export default function Layout({ children }: LayoutProps) {
                 {item.label}
               </Link>
             ))}
+            <div
+              className="relative"
+              onMouseEnter={() => setIsCSDropdownOpen(true)}
+              onMouseLeave={() => setIsCSDropdownOpen(false)}
+            >
+              <button
+                className={`transition hover:text-primary ${location.pathname === '/consejeria-superior' ? 'text-primary' : ''}`}
+              >
+                CS
+              </button>
+              {isCSDropdownOpen && (
+                <div className="absolute left-0 top-full mt-2 w-48 rounded-lg bg-white shadow-lg border border-slate-200 py-2 z-50">
+                  <Link
+                    to="/consejeria-superior"
+                    className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-primary transition"
+                    onClick={() => setIsCSDropdownOpen(false)}
+                  >
+                    Consejería Superior
+                  </Link>
+                </div>
+              )}
+            </div>
           </nav>
 
           <div className="flex items-center gap-4">

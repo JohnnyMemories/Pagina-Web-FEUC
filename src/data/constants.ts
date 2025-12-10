@@ -28,6 +28,11 @@ export const directiva = [
   { name: 'Ethiel Barrientos', role: '2° Secretaria Ejecutiva', area: 'Kinesiología', photo: '/assets/ethiel_barrientos.JPG' },
 ]
 
+export const consejeriaSuperior = [
+  { name: 'Exy Garay', role: 'Consejera Superior', area: '', photo: '/assets/exy_garay.JPG' },
+  { name: 'Dora Garate', role: 'Sub Consejera Superior', area: '', photo: '/assets/dora_garate.JPG' },
+]
+
 export const summary = [
   { label: 'Creación', value: '26 julio 1938', detail: 'Organismo oficial de representación estudiantil.' },
   { label: 'Miembros representados', value: '+30.000 alumnos', detail: 'Directiva, Consejería Superior y Territoriales.' },
