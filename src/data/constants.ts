@@ -26,14 +26,14 @@ export const directiva = [
   { name: 'Antonia Rebolledo', role: 'Secretaria General', area: 'Derecho', photo: '/assets/antonia_rebolledo.JPG' },
   { name: 'Arantzazu Larraguibel', role: '1° Secretaria Ejecutiva', area: 'Diseño', photo: '/assets/zazu.JPG' },
   { name: 'Ethiel Barrientos', role: '2° Secretaria Ejecutiva', area: 'Kinesiología', photo: '/assets/ethiel_barrientos.JPG' },
-  { name: 'Maite Etchegaray', role: 'Coordinadora General', area: '', photo: '/assets/maite_etchegaray.JPG' },
-  { name: 'Gabriel Cáceres', role: 'Coordinador General', area: '', photo: '/assets/gabriel_caceres.JPG' },
-  { name: 'Javier Castro', role: 'Coordinador General', area: '', photo: '/assets/javier_castro.JPG' },
-  { name: 'Blanca Yaconi', role: 'Coordinadora General', area: '', photo: '/assets/blanca_yaconi.JPG' },
-  { name: 'Trini Farías', role: 'Coordinadora General', area: '', photo: '/assets/trini_farias.JPG' },
-  { name: 'Gabriel Nahuelcoy', role: 'Coordinador General', area: '', photo: '/assets/gabriel_nahuelcoy.JPG' },
-  { name: 'Lucas Ituarte', role: 'Coordinador General', area: '', photo: '/assets/lucas_ituarte.JPG' },
-  { name: 'Valentina Saldaña', role: 'Coordinadora General', area: '', photo: '/assets/valentina_saldana.JPG' },
+  { name: 'Maite Etchegaray', role: 'Coordinadora General', area: '', photo: '/assets/maite_etchegaray.jpg' }, // Foto pendiente
+  { name: 'Gabriel Cáceres', role: 'Coordinador General', area: '', photo: '/assets/gabriel_cáceres.jpg' },
+  { name: 'Javier Castro', role: 'Coordinador General', area: '', photo: '/assets/javier_castro.jpg' },
+  { name: 'Blanca Yaconi', role: 'Coordinadora General', area: '', photo: '/assets/blanca_yaconi.jpg' },
+  { name: 'Trini Farías', role: 'Coordinadora General', area: '', photo: '/assets/trinidad_farías.jpg' },
+  { name: 'Gabriel Nahuelcoy', role: 'Coordinador General', area: '', photo: '/assets/gabriel_nahuelcoy.jpg' },
+  { name: 'Lucas Ituarte', role: 'Coordinador General', area: '', photo: '/assets/lucas_ituarte.jpg' },
+  { name: 'Valentina Saldaña', role: 'Coordinadora General', area: '', photo: '/assets/valentina_saldañan.jpg' },
 ]
 
 export const consejeriaSuperior = [
