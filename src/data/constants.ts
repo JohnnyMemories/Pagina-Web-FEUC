@@ -33,7 +33,7 @@ export const directiva = [
   { name: 'Trini Farías', role: 'Coordinadora General', area: '', photo: '/assets/trinidad_farías.jpg' },
   { name: 'Gabriel Nahuelcoy', role: 'Coordinador General', area: '', photo: '/assets/gabriel_nahuelcoy.jpg' },
   { name: 'Lucas Ituarte', role: 'Coordinador General', area: '', photo: '/assets/lucas_ituarte.jpg' },
-  { name: 'Valentina Saldaña', role: 'Coordinadora General', area: '', photo: '/assets/valentina_saldañan.jpg' },
+  { name: 'Valentina Saldaña', role: 'Coordinadora General', area: '', photo: '/assets/valentina_saldana.jpg' },
 ]
 
 export const consejeriaSuperior = [
